@@ -1,0 +1,12 @@
+# TF2-DesyncFix
+
+Fixes the rocket desync by simulating the rockets per each owner's usercommand (same as jumpQoL). Works on 64bit and with the TAS addon.
+
+untested on 64bit linux.
+
+If you're on 32bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
+
+## Convars
+- sm_desyncfix_enabled 1
+- sm_desyncfix_noncmd 1
+- sm_desyncfix_noncmd_offset 0
