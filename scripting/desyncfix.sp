@@ -10,7 +10,7 @@ public Plugin myinfo =
 	name = "Desync Fix",
 	author = "Laurens",
 	description = "Sync rocket simulation with each owner's user commands.",
-	version = "0.1.0",
+	version = "1.0",
 };
 
 #define MAX_EDICTS (1 << 11)
