@@ -6,9 +6,9 @@ untested on 64bit linux.
 
 If you're on 32bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
 
+Download compiled plugin here: https://github.com/llaurenss/TF2-DesyncFix/releases
+
 ## Convars
 - sm_desyncfix_enabled 1
 - sm_desyncfix_noncmd 1
 - sm_desyncfix_noncmd_offset 0
-
-Download compiled plugin here: https://github.com/llaurenss/TF2-DesyncFix/releases
