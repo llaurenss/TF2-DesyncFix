@@ -9,6 +9,6 @@ If you're on 32bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 
 Download compiled plugin here: https://github.com/llaurenss/TF2-DesyncFix/releases
 
 ## Convars
-- sm_desyncfix_enabled 1
-- sm_desyncfix_noncmd 1
-- sm_desyncfix_noncmd_offset 0
+- `sm_desyncfix_enabled 1` - Enables or disables the fix.
+- `sm_desyncfix_noncmd 1` - Whether non player spawned rockets (TAS spawned rockets for example) should also be simulated per the owner's usercommand.
+- `sm_desyncfix_noncmd_offset 0` - Adds a simulation offset in ticks at spawn for non player spawned rockets. Both positive and negative values are supported.
