@@ -7,8 +7,8 @@ If you're on 32bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 
 ## Install
 1. Download [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) and [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) (stable branch). Extract them and put them in your `Team Fortress 2\tf` folder.
 2. Download the compiled plugin here https://github.com/llaurenss/TF2-DesyncFix/releases extract and put it in `Team Fortress 2\tf\addons\sourcemod`.
-3. Add ` -insecure` to the TF2 launch options.
-4. That's it. If you want to make sure that it's working, check the plugin list with the console command `sm plugins list`. 
+3. Add ` -insecure` to the TF2 launch options so that the addons will be loaded.
+4. And that's it. If you want to make sure that it's working, check the plugin list with the console command `sm plugins list`. 
 
   \
 To get Sourcemod and Metamod working on the 64bit linux listen server (normal TF2 client), you need to symlink 4 files.  
