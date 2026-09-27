@@ -233,7 +233,7 @@ bool OffsetsReady()
 void PreparePhysicsSimulateEntity()
 {
 	StartPrepSDKCall(SDKCall_Static);
-	if (!PrepSDKCall_SetFromConf(g_hGameConf, SDKConf_Signature, "Physics_SimulateEntity"))
+	if (!PrepSDKCall_SetFromConf(g_hGameConf, SDKConf_Signature, "Physics_SimulateEntity") && !PrepSDKCall_SetFromConf(g_hGameConf, SDKConf_Signature, "Physics_SimulateEntity (listen server)"))
 		SetFailState("[desyncfix] Unable to find Physics_SimulateEntity signature.");
 
 	PrepSDKCall_AddParameter(SDKType_CBaseEntity, SDKPass_Pointer);
