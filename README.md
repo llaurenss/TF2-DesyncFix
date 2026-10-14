@@ -2,7 +2,7 @@
 
 Fixes the rocket desync by simulating the rockets per each owner's usercommand (same as jumpQoL). Works on 64-bit and with the TAS addon.
 
-If you're on 32-bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
+If you're on 32-bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64-bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
 
 ## Install
 1. Download [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) and [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) (stable branch). Extract both archives and copy their contents in your `Team Fortress 2\tf` folder.
