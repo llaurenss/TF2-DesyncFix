@@ -1,17 +1,17 @@
 # TF2-DesyncFix
 
-Fixes the rocket desync by simulating the rockets per each owner's usercommand (same as jumpQoL). Works on 64bit and with the TAS addon.
+Fixes the rocket desync by simulating the rockets per each owner's usercommand (same as jumpQoL). Works on 64-bit and with the TAS addon.
 
-If you're on 32bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
+If you're on 32-bit or when jumpQoL (https://github.com/chrb22/jumpqol) supports 64bit you should use that as its the more complete fix and includes other jump related fixes/improvements.
 
 ## Install
-1. Download [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) and [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) (stable branch). Extract them and put them in your `Team Fortress 2\tf` folder.
-2. Download the compiled plugin here https://github.com/llaurenss/TF2-DesyncFix/releases extract and put it in `Team Fortress 2\tf\addons\sourcemod`.
-3. Add ` -insecure` to the TF2 launch options so that the addons will be loaded.
-4. And that's it. If you want to make sure that it's working, check the plugin list with the console command `sm plugins list`. 
+1. Download [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) and [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) (stable branch). Extract both archives and copy their contents in your `Team Fortress 2\tf` folder.
+2. Download the compiled plugin here https://github.com/llaurenss/TF2-DesyncFix/releases. Extract the archive and copy its contents into `Team Fortress 2\tf\addons\sourcemod`.
+3. Add ` -insecure` to your TF2 launch options to allow the addons to load.
+4. And that's it! To verify that the plugin is loaded you can use the console command `sm plugins list`. 
 
-  \
-To get Sourcemod and Metamod working on the 64bit linux listen server (normal TF2 client), you need to symlink 4 files.  
+### Linux (64-bit listen server)
+To get Metamod and Sourcemod working on the 64-bit Linux TF2 client (listen server), you need to create four symlinks.
 Open the terminal in the `Team Fortress 2` folder and run these 4 commands to create the symlinks:
 ```
 ln -sv libtier0.so   bin/linux64/libtier0_srv.so
